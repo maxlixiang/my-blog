@@ -24,9 +24,9 @@ const articles = [
     },
     {
         id: 4,
-        title: "我的桌面配置清单 (2026版)",
+        title: "测试",
         date: "2026-02-25",
-        summary: "很多朋友问我平时工作和写代码用什么设备，今天就来一次大揭秘，分享我的生产力工具。",
+        summary: "测试",
         fileName: "post4.md"
     }    
     
