@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我 - MyTechBlog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 这里加一点点专门给“关于我”页面的小样式 */
+        .about-content {
+            line-height: 1.8;
+        }
+        .about-content img {
+            max-width: 100%;
+            border-radius: 8px; /* 让图片带圆角 */
+            margin: 20px 0;
+        }
+        .social-links a {
+            margin-right: 15px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">MyTechBlog</div>
+        <nav>
+            <a href="index.html">首页</a>
+            <a href="about.html" class="active" style="color: var(--primary-color);">关于我</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <article class="card about-content">
+            <h1>你好，我是博主 👋</h1>
+            <p>欢迎来到我的数字花园！我是一名科技爱好者，热衷于探索编程、效率工具和互联网的新鲜事。</p>
+            
+            <hr style="border: 0; border-top: 1px solid #eee; margin: 30px 0;">
+
+            <h3>🛠️ 我使用的工具</h3>
+            <ul>
+                <li><strong>编辑器</strong>: Cursor / VS Code</li>
+                <li><strong>笔记</strong>: Notion / Obsidian</li>
+                <li><strong>设备</strong>: MacBook Pro + 27寸 4K 显示器</li>
+            </ul>
+
+            <h3>📫 联系我</h3>
+            <p>如果你对我的文章感兴趣，或者想和我交流，欢迎通过以下方式找到我：</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">GitHub</a>
+                <a href="mailto:your-email@example.com">Email</a>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
